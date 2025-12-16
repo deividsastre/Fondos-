@@ -13,7 +13,7 @@ Documentar el proceso de escaneo de una aplicación web utilizando **Burp Suite*
 Abrimos **Burp Suite**, previamente instalado en nuestra estación de trabajo.  
 Al iniciar, Burp mostrará su panel principal con los módulos disponibles.
 
-![Inicio de Burp Suite](Imagen2324.png)
+![Inicio de Burp Suite](images/Imagen2324.png)
 
 ---
 
