@@ -25,11 +25,11 @@ Nos dirigimos a:
 Proxy → Proxy Settings
 ```
 
-![Proxy Settings](Imagen2325.png)
+![Proxy Settings](images/Imagen2325.png)
 
 Configuramos el proxy para que escuche en el **puerto 8080** y apunte a **localhost**, ya que el escaneo se realiza desde el mismo equipo.
 
-![Configuración del puerto](Imagen2326.png)
+![Configuración del puerto](images/Imagen2326.png)
 
 Ejemplo de configuración:
 
@@ -44,11 +44,11 @@ Puerto: 8080
 
 Accedemos a la IP y puerto del proxy configurado desde el navegador y damos clic en **CA Certificate** para descargar el certificado.
 
-![Descarga del certificado CA](Imagen2327.png)
+![Descarga del certificado CA](images/Imagen2327.png)
 
 Luego, ingresamos a la configuración del navegador y cargamos el certificado en el apartado de **administración de certificados**.
 
-![Instalación del certificado](Imagen2328.png)
+![Instalación del certificado](images/Imagen2328.png)
 
 > ⚠️ **Nota de seguridad:**  
 > Este procedimiento solo debe realizarse en entornos de pruebas o laboratorio.
@@ -65,7 +65,7 @@ Proxy → HTTP history
 
 Aquí se visualizarán todas las solicitudes realizadas desde el navegador.
 
-![HTTP History](Imagen2329.png)
+![HTTP History](images/Imagen2329.png)
 
 ---
 
@@ -73,7 +73,7 @@ Aquí se visualizarán todas las solicitudes realizadas desde el navegador.
 
 Desde el navegador con el certificado instalado, accedemos a la aplicación web objetivo y realizamos una navegación completa por todas sus secciones.
 
-![Navegación de la aplicación](Imagen2330.png)
+![Navegación de la aplicación](images/Imagen2330.png)
 
 ---
 
@@ -85,7 +85,7 @@ Definimos el alcance del escaneo en:
 Target → Lattitude.la → Add scope
 ```
 
-![Agregar Scope](Imagen2331.png)
+![Agregar Scope](images/Imagen2331.png)
 
 Luego iniciamos el escaneo desde:
 
@@ -93,11 +93,11 @@ Luego iniciamos el escaneo desde:
 Lattitude.la → Scan
 ```
 
-![Inicio del Scan](Imagen2332.png)
+![Inicio del Scan](images/Imagen2332.png)
 
 Configuramos el escaneo según los parámetros requeridos.
 
-![Configuración del Scan](Imagen2333.png)
+![Configuración del Scan](images/Imagen2333.png)
 
 ---
 
@@ -105,7 +105,7 @@ Configuramos el escaneo según los parámetros requeridos.
 
 El estado del escaneo puede visualizarse en el **Dashboard** de Burp Suite.
 
-![Dashboard del Scan](Imagen2334.png)
+![Dashboard del Scan](images/Imagen2334.png)
 
 ---
 
@@ -113,14 +113,15 @@ El estado del escaneo puede visualizarse en el **Dashboard** de Burp Suite.
 
 Una vez finalizado el escaneo, seleccionamos los **Issues** detectados.
 
-![Selección de Issues](Imagen2335.png)
+![Selección de Issues](images/Imagen2335.png)
 
-Exportamos los resultados en formato **XML**, listo para ser cargado en **Eudora**.
+Exportamos los resultados en formato **XML**.
 
-![Exportación XML](Imagen2336.png)
+![Exportación XML](images/Imagen2336.png)
 
 ---
+Exportamos los resultados en formato **XML**, listo para ser cargado en **Eudora**.
+![Exportación XML](images/Imagen2337.png)
+---
 
-## ✅ Conclusión
 
-Burp Suite permite realizar un análisis detallado del tráfico web y detectar vulnerabilidades mediante un escaneo controlado.
