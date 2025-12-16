@@ -1,3 +1,5 @@
+<div align="center" style="text-align: justify;">
+
 # Escaneo de Aplicaciones Web con Burp Suite
 
 ## 📌 Objetivo
@@ -50,8 +52,8 @@ Luego, ingresamos a la configuración del navegador y cargamos el certificado en
 
 ![Instalación del certificado](images/Imagen2328.png)
 
-> ⚠️ **Nota de seguridad:**  
-> Este procedimiento solo debe realizarse en entornos de pruebas o laboratorio.
+> ⚠️ **Nota:**  
+> Este procedimiento se debe hacer para el corecto funcionamiento.
 
 ---
 
@@ -119,9 +121,9 @@ Exportamos los resultados en formato **XML**.
 
 ![Exportación XML](images/Imagen2336.png)
 
----
+
 Exportamos los resultados en formato **XML**, listo para ser cargado en **Eudora**.
 ![Exportación XML](images/Imagen2337.png)
----
 
 
+</div>
